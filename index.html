@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="script.js"></script>
+</head>
+<body>
+	<button onclick="listaz()">Beolvas</button>
+	
+	<select id="lista" onchange="szures()"></select>
+	
+	<input value="2022" type="number" id="ev" onchange="szures()">
+	<input type="radio" id="elore" name="fav_language" value="elore" onclick="szures()" checked>
+	<label for="elore">Zsa előttem</label>
+	<input type="radio" id="hatra" name="fav_language" value="hatra" onclick="szures()">
+	<label for="hatra">zsa utánam</label>
+	<input type="text" id="cim" onchange="szures()">
+	
+	<p id="tartalom"></p>
+	
+</body>
+</html>
