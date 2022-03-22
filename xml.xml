@@ -1,0 +1,197 @@
+<!-- 
+This XML contains the 
+
+Release date (year),
+Director,
+IMDB link,
+Budget ($ Million),
+Income ($ Million)
+
+of the first three phases of Marvel films.
+ -->
+<CATALOG>
+<FILM>
+<TITLE>Iron Man</TITLE>
+<YEAR>2008</YEAR>
+<DIRECTOR>John Favreau</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0371746/</IMDB>
+<BUDGET>140</BUDGET>
+<INCOME>585</INCOME>
+</FILM>
+<FILM>
+<TITLE>The Incredible Hulk</TITLE>
+<YEAR>2008</YEAR>
+<DIRECTOR>Louis Leterrier</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0800080/</IMDB>
+<BUDGET>150</BUDGET>
+<INCOME>265</INCOME>
+</FILM>
+<FILM>
+<TITLE>Iron Man 2</TITLE>
+<YEAR>2010</YEAR>
+<DIRECTOR>John Favreau</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1228705/</IMDB>
+<BUDGET>200</BUDGET>
+<INCOME>625</INCOME>
+</FILM>
+<FILM>
+<TITLE>Thor</TITLE>
+<YEAR>2011</YEAR>
+<DIRECTOR>Kenneth Branagh</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0800369/</IMDB>
+<BUDGET>150</BUDGET>
+<INCOME>450</INCOME>
+</FILM>
+<FILM>
+<TITLE>Captain America: The First Avenger</TITLE>
+<YEAR>2011</YEAR>
+<DIRECTOR>Joe Johnston</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0848228/</IMDB>
+<BUDGET>220</BUDGET>
+<INCOME>1519</INCOME>
+</FILM>
+<FILM>
+<TITLE>Marvel's The Avengers</TITLE>
+<YEAR>2012</YEAR>
+<DIRECTOR>Joss Whedon</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0371746/</IMDB>
+<BUDGET>140</BUDGET>
+<INCOME>585</INCOME>
+</FILM>
+<FILM>
+<TITLE>Iron Man 3</TITLE>
+<YEAR>2013</YEAR>
+<DIRECTOR>Shane Black</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1300854/</IMDB>
+<BUDGET>200</BUDGET>
+<INCOME>1214</INCOME>
+</FILM>
+<FILM>
+<TITLE>Thor: The Dark World</TITLE>
+<YEAR>2013</YEAR>
+<DIRECTOR>Alan Taylor</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1981115/</IMDB>
+<BUDGET>170</BUDGET>
+<INCOME>645</INCOME>
+</FILM>
+<FILM>
+<TITLE>Captain America: The Winter Soldier</TITLE>
+<YEAR>2014</YEAR>
+<DIRECTOR>Russo brothers</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1843866/</IMDB>
+<BUDGET>177</BUDGET>
+<INCOME>715</INCOME>
+</FILM>
+<FILM>
+<TITLE>Guardians of the Galaxy</TITLE>
+<YEAR>2014</YEAR>
+<DIRECTOR>James Gunn</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt2015381/</IMDB>
+<BUDGET>232</BUDGET>
+<INCOME>723</INCOME>
+</FILM>
+<FILM>
+<TITLE>Avengers: Age of Ultron</TITLE>
+<YEAR>2015</YEAR>
+<DIRECTOR>Joss Whedon</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt2395427/</IMDB>
+<BUDGET>495</BUDGET>
+<INCOME>1403</INCOME>
+</FILM>
+<FILM>
+<TITLE>Ant-Man</TITLE>
+<YEAR>2015</YEAR>
+<DIRECTOR>Peyton Reed</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt0478970/</IMDB>
+<BUDGET>170</BUDGET>
+<INCOME>520</INCOME>
+</FILM>
+<FILM>
+<TITLE>Captain America: Civil War</TITLE>
+<YEAR>2016</YEAR>
+<DIRECTOR>Russo brothers</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt3498820/</IMDB>
+<BUDGET>250</BUDGET>
+<INCOME>1153</INCOME>
+</FILM>
+<FILM>
+<TITLE>Doctor Strange</TITLE>
+<YEAR>2016</YEAR>
+<DIRECTOR>Scott Derrickson</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1211837/</IMDB>
+<BUDGET>237</BUDGET>
+<INCOME>678</INCOME>
+</FILM>
+<FILM>
+<TITLE>Guardians of the Galaxy Vol. 2</TITLE>
+<YEAR>2017</YEAR>
+<DIRECTOR>James Gunn</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt3896198/</IMDB>
+<BUDGET>200</BUDGET>
+<INCOME>864</INCOME>
+</FILM>
+<FILM>
+<TITLE>Spider-Man: Homecoming</TITLE>
+<YEAR>2017</YEAR>
+<DIRECTOR>Jon Watts</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt2250912/</IMDB>
+<BUDGET>175</BUDGET>
+<INCOME>881</INCOME>
+</FILM>
+<FILM>
+<TITLE>Thor: Ragnarok</TITLE>
+<YEAR>2017</YEAR>
+<DIRECTOR>Taika Waititi</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt3501632/</IMDB>
+<BUDGET>180</BUDGET>
+<INCOME>854</INCOME>
+</FILM>
+<FILM>
+<TITLE>Black Panther</TITLE>
+<YEAR>2018</YEAR>
+<DIRECTOR>Ryan Coogler</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt1825683/</IMDB>
+<BUDGET>200</BUDGET>
+<INCOME>1348</INCOME>
+</FILM>
+<FILM>
+<TITLE>Avengers: Infinity War</TITLE>
+<YEAR>2018</YEAR>
+<DIRECTOR>Russo brothers</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt4154756/</IMDB>
+<BUDGET>400</BUDGET>
+<INCOME>2048</INCOME>
+</FILM>
+<FILM>
+<TITLE>Ant-Man and the Wasp</TITLE>
+<YEAR>2018</YEAR>
+<DIRECTOR>Peyton Reed</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt5095030/</IMDB>
+<BUDGET>195</BUDGET>
+<INCOME>623</INCOME>
+</FILM>
+<FILM>
+<TITLE>Captain Marvel</TITLE>
+<YEAR>2019</YEAR>
+<DIRECTOR>Anna Boden, Ryan Fleck</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt4154664/</IMDB>
+<BUDGET>175</BUDGET>
+<INCOME>1128</INCOME>
+</FILM>
+<FILM>
+<TITLE>Avengers: Endgame</TITLE>
+<YEAR>2019</YEAR>
+<DIRECTOR>Russo brothers</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt4154796/</IMDB>
+<BUDGET>400</BUDGET>
+<INCOME>2798</INCOME>
+</FILM>
+<FILM>
+<TITLE>Spider-Man: Far From Home</TITLE>
+<YEAR>2019</YEAR>
+<DIRECTOR>Jon Watts</DIRECTOR>
+<IMDB>https://www.imdb.com/title/tt6320628/</IMDB>
+<BUDGET>160</BUDGET>
+<INCOME>1132</INCOME>
+</FILM>
+</CATALOG>
