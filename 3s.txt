@@ -1,0 +1,88 @@
+let selectedDir
+let selectedAtt
+const xhttp = new XMLHttpRequest()
+
+function loadOptions(url){
+    xhttp.onreadystatechange = function(){
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+            let xmlDoc = xhttp.responseXML
+            let options = ""
+            let directors = xmlDoc.getElementsByTagName("DIRECTOR")
+            let directorsArr = []       //faszparaszt
+           for(let i = 0; i < directors.length; i++){
+               directorsArr.push(directors[i].childNodes[0].nodeValue)
+           }
+           let directorsFilter = directorsArr.filter((c, index) =>{
+               return directorsArr.indexOf(c) === index
+           })
+
+            for (let i = 0; i < directorsFilter.length; i++){
+                let name = directorsFilter[i]
+                options += "<option value=" + i + ">" + name + "</option>"
+            }
+
+            document.getElementById("task3").innerHTML = options
+
+        }
+    }
+    xhttp.open("GET", url, true)
+    xhttp.send()
+}
+
+function loadXML(url){
+
+    xhttp.onreadystatechange = function(){
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+            let xmlDoc = xhttp.responseXML
+            
+            let titles      = xmlDoc.getElementsByTagName("TITLE")
+            let years       = xmlDoc.getElementsByTagName("YEAR")
+            let directors   = xmlDoc.getElementsByTagName("DIRECTOR")
+            let incomes     = xmlDoc.getElementsByTagName("INCOME")
+            let budget      = xmlDoc.getElementsByTagName("BUDGET")  
+            
+            let isNum = selectedAtt == "budgets" ? true : false
+            let text = document.getElementById("task4_input").value.toLowerCase()
+            console.log(text)
+
+            document.getElementById("task1").innerHTML = 
+            "Number of directors: " + titles.length
+            let content =
+                        "<tr>" +
+                        "<th>TITLE</th>" +
+                        "<th>YEAR</th>" +
+                        "<th>DIRECTOR</th>" +
+                        "<th>PROFIT</th>"
+            let forSearch = xmlDoc.getElementsByTagName(selectedAtt)
+            
+            for(let i = 0; i < titles.length; i++){ //meguntam
+                if(selectedDir == directors[i].childNodes[0].nodeValue &&
+                (isNum ? (incomes[i].childNodes[0].nodeValue - budget[i].childNodes[0].nodeValue) > text : true
+                /*forSearch[i].childNodes[0].nodeValue.toLowerCase().includes(text)*/))
+                content += 
+                    "<tr>" +
+                    "<td>" + titles[i].childNodes[0].nodeValue    + "</td>" +
+                    "<td>" + years[i].childNodes[0].nodeValue    + "</td>" +
+                    "<td>" + directors[i].childNodes[0].nodeValue + "</td>" +
+                    "<td>" + (incomes[i].childNodes[0].nodeValue - budget[i].childNodes[0].nodeValue)   + "</td>"
+                    + "</tr>"
+            }
+            document.getElementById("task2").innerHTML = content;
+        }
+    }
+    xhttp.open("GET", url, true)
+    xhttp.send()
+}
+
+function setDirector(){
+    let selected = document.getElementById("task3");
+    selectedDir = selected.options[selected.selectedIndex].text;
+    //console.log(selectedDir)
+}
+
+function setData(){
+    
+    let selected = document.getElementById("task4_select");
+    selectedAtt = selected.options[selected.selectedIndex].value;
+    //console.log(selectedAtt)
+}

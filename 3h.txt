@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body onload="loadOptions('marvel.xml')">
+    <button onclick="loadXML('marvel.xml')">LOAD</button>
+    <p id="task1"></p>
+    <select id="task3" onchange="setDirector()"></select>
+    <table id="task2"></table>
+    <select id="task4_select" onchange="setData()">
+        <option value="TITLE">titles</option>
+        <option value="YEAR">years</option>
+        <option value="DIRECTOR">directors</option>
+        <option value="budgets">budgets</option>
+    </select>
+    <input type="text" id="task4_input">
+</body>
+</html>
